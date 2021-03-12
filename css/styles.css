@@ -2446,3 +2446,7 @@ a:hover.back-to-top {
 .radioElement{
 	font-size: 1.4rem;
 }
+.img-fluid{
+	height: 200px;
+	width: 100%;
+}
