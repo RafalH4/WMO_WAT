@@ -1,4 +1,6 @@
-
+var analyzeBtn = document.getElementById("analyzeBtn")
+analyzeBtn.addEventListener("click", myFunction)
+ 
 function myFunction(){
     var sizeElements = document.getElementsByName("size")
     for(i = 0; i<sizeElements.length; i++)

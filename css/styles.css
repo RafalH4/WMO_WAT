@@ -896,18 +896,15 @@ input[type='checkbox'] {
 /*     07. Services     */
 /************************/
 .cards-2 {
-	padding-top: 6.625rem;	
-	padding-bottom: 1.25rem;	
+padding-top: 0.2rem;
 	background-color: #fbfbfb;
 }
 
 .cards-2 .section-title {
-	margin-bottom: 0.5rem;
 	text-align: center;
 }
 
 .cards-2 h2 {
-	margin-bottom: 3.25rem;
 	text-align: center;
 }
 

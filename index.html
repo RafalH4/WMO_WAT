@@ -50,75 +50,7 @@
     <!-- end of preloader -->
 
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
 
-        <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>
-
-        <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-awesome fas fa-bars"></span>
-            <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
-        <!-- end of mobile menu toggle button -->
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#intro">INTRO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#services">SERVICES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#callMe">CALL ME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#projects">PROJECTS</a>
-                </li>
-
-                <!-- Dropdown Menu -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button"
-                        aria-haspopup="true" aria-expanded="false">ABOUT</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS
-                                CONDITIONS</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY
-                                POLICY</span></a>
-                    </div>
-                </li>
-                <!-- end of dropdown menu -->
-
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
-                </li>
-            </ul>
-            <span class="nav-item social-icons">
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <span class="hexagon"></span>
-                        <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </a>
-                </span>
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <span class="hexagon"></span>
-                        <i class="fab fa-twitter fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
-        </div>
-    </nav> <!-- end of navbar -->
-    <!-- end of navbar -->
 
 
     <!-- Header -->
@@ -155,7 +87,7 @@
                             zajęciach.</p>
                         <p>Ocena jest zależna od jakościproduktu końcowego, terminowości realizacji, stopnia
                             zaawansowania oraz wielkości zespołu projektowego.</p>
-
+                            <a class="btn-solid-lg page-scroll" href="#details">Start</a>
 
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
@@ -163,9 +95,11 @@
                     <div>
                         <img class="img-fluid" src="images/table.jpg" alt="alternative">
                     </div> <!-- end of image-container -->
+                    
                 </div> <!-- end of col -->
+                
             </div> <!-- end of row -->
-            <a class="btn-solid-lg page-scroll" href="#details">Start</a>
+            
         </div> <!-- end of container -->
     </div> <!-- end of basic-1 -->
     <!-- end of intro -->
@@ -174,203 +108,208 @@
 
 
     <!-- Details 1 -->
-    <div id="details" class="accordion">
+    <div id="details" class="basic-1">
 
         <!-- Accordion -->
         <div class="container" id="accordionOne">
             <h2>Kryteria projektu</h2>
             <h3>Określ parametry:</h3>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="item">
-                        <div id="headingOne">
-                            <span data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                aria-controls="collapseOne" role="button">
-                                <span class="circle-numbering">1</span><span class="accordion-title">Wielkość</span>
-                            </span>
-                        </div>
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                            data-parent="#accordionOne">
-                            <div class="accordion-body">
-                                <form>
-                                    <div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="size__small" value="small" name="size"
-                                                class="radioInput">
-                                            <label for="size__small" class="radioLabel">Mały</label>
-                                        </div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="size__big" value="big" name="size"
-                                                class="radioInput">
-                                            <label for="size__big" class="radioLabel">Duży</label>
-                                        </div>
-
-                                    </div>
-                                </form>
+            <div class="accordion">
+                <div class=" row">
+                    <div class="col-lg-6">
+                        <div class="item">
+                            <div id="headingOne">
+                                <span data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne" role="button">
+                                    <span class="circle-numbering">1</span><span class="accordion-title">Wielkość</span>
+                                </span>
                             </div>
-                        </div>
-                    </div> <!-- end of item -->
-
-                    <div class="item">
-                        <div id="headingTwo">
-                            <span class="collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                                aria-expanded="false" aria-controls="collapseTwo" role="button">
-                                <span class="circle-numbering">2</span><span class="accordion-title">Ryzyko</span>
-                            </span>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionOne">
-                            <div class="accordion-body">
-                                <form>
-                                    <div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="risk__small" value="small" name="risk"
-                                                class="radioInput">
-                                            <label for="risk__small" class="radioLabel">Niskie</label>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionOne">
+                                <div class="accordion-body">
+                                    <form>
+                                        <div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="size__small" value="small" name="size"
+                                                    class="radioInput">
+                                                <label for="size__small" class="radioLabel">Mały</label>
+                                            </div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="size__big" value="big" name="size"
+                                                    class="radioInput">
+                                                <label for="size__big" class="radioLabel">Duży</label>
+                                            </div>
+    
                                         </div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="risk__medium" value="medium" name="risk"
-                                                class="radioInput">
-                                            <label for="risk__medium" class="radioLabel">Średnie</label>
-                                        </div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="risk__high" value="high" name="risk"
-                                                class="radioInput">
-                                            <label for="risk__high" class="radioLabel">Wysokie</label>
-                                        </div>
-                                    </div>
-                                </form>
+                                    </form>
+                                </div>
                             </div>
-                        </div>
-                    </div> <!-- end of item -->
-
-                    <div class="item">
-                        <div id="headingThree">
-                            <span class="collapsed" data-toggle="collapse" data-target="#collapseThree"
-                                aria-expanded="false" aria-controls="collapseThree" role="button">
-                                <span class="circle-numbering">3</span><span class="accordion-title">Trudność</span>
-                            </span>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#accordionOne">
-                            <div class="accordion-body">
-                                <form>
-                                    <div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="difficulty__easy" value="easy" name="difficulty"
-                                                class="radioInput">
-                                            <label for="difficulty__easy" class="radioLabel">Prosty</label>
-                                        </div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="difficulty__difficult" value="difficult"
-                                                name="difficulty" class="radioInput">
-                                            <label for="difficulty__difficult" class="radioLabel">Trudny</label>
-                                        </div>
-                                    </div>
-                                </form>
+                        </div> <!-- end of item -->
+    
+                        <div class="item">
+                            <div id="headingTwo">
+                                <span class="collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo" role="button">
+                                    <span class="circle-numbering">2</span><span class="accordion-title">Ryzyko</span>
+                                </span>
                             </div>
-                        </div>
-                    </div> <!-- end of item -->
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionOne">
+                                <div class="accordion-body">
+                                    <form>
+                                        <div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="risk__small" value="small" name="risk"
+                                                    class="radioInput">
+                                                <label for="risk__small" class="radioLabel">Niskie</label>
+                                            </div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="risk__medium" value="medium" name="risk"
+                                                    class="radioInput">
+                                                <label for="risk__medium" class="radioLabel">Średnie</label>
+                                            </div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="risk__high" value="high" name="risk"
+                                                    class="radioInput">
+                                                <label for="risk__high" class="radioLabel">Wysokie</label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> <!-- end of item -->
+    
+                        <div class="item">
+                            <div id="headingThree">
+                                <span class="collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree" role="button">
+                                    <span class="circle-numbering">3</span><span class="accordion-title">Trudność</span>
+                                </span>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionOne">
+                                <div class="accordion-body">
+                                    <form>
+                                        <div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="difficulty__easy" value="easy" name="difficulty"
+                                                    class="radioInput">
+                                                <label for="difficulty__easy" class="radioLabel">Prosty</label>
+                                            </div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="difficulty__difficult" value="difficult"
+                                                    name="difficulty" class="radioInput">
+                                                <label for="difficulty__difficult" class="radioLabel">Trudny</label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> <!-- end of item -->
+                    </div>
+    
+                    <div class="col-lg-6">
+                        <div class="item">
+                            <div id="headingFour">
+                                <span class="collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                    aria-expanded="false" aria-controls="collapseFour" role="button">
+                                    <span class="circle-numbering">4</span><span class="accordion-title">Stopień
+                                        rozpoczęcia</span>
+                                </span>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionOne">
+                                <div class="accordion-body">
+                                    <form>
+                                        <div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="startLevel__new" value="new" name="startLevel"
+                                                    class="radioInput">
+                                                <label for="startLevel__new" class="radioLabel">Od początku</label>
+                                            </div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="startLevel__exist" value="difficult"
+                                                    name="startLevel" class="radioInput">
+                                                <label for="startLevel__exist" class="radioLabel">Istniejący</label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> <!-- end of item -->
+    
+                        <div class="item">
+                            <div id="headingFive">
+                                <span class="collapsed" data-toggle="collapse" data-target="#collapseFive"
+                                    aria-expanded="false" aria-controls="collapseFive" role="button">
+                                    <span class="circle-numbering">5</span><span class="accordion-title">Liczba przypadków
+                                        użycia</span>
+                                </span>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#accordionOne">
+                                <div class="accordion-body">
+                                    <form>
+                                        <div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="numberUseCase__few" value="few" name="numberUseCase"
+                                                    class="radioInput">
+                                                <label for="numberUseCase__few" class="radioLabel">0-10</label>
+                                            </div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="numberUseCase__more" value="more"
+                                                    name="numberUseCase" class="radioInput">
+                                                <label for="numberUseCase__more" class="radioLabel">11-30</label>
+                                            </div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="numberUseCase__lot" value="lot" name="numberUseCase"
+                                                    class="radioInput">
+                                                <label for="numberUseCase__lot" class="radioLabel">31+</label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> <!-- end of item -->
+    
+                        <div class="item">
+                            <div id="headingSix">
+                                <span class="collapsed" data-toggle="collapse" data-target="#collapseSix"
+                                    aria-expanded="false" aria-controls="collapseSix" role="button">
+                                    <span class="circle-numbering">6</span><span class="accordion-title">Liczba krytycznych
+                                        przypadków użycia</span>
+                                </span>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionOne">
+                                <div class="accordion-body">
+                                    <form>
+                                        <div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="numberCriticalUseCase__few" value="few"
+                                                    name="numberCriticalUseCase" class="radioInput">
+                                                <label for="numberCriticalUseCase__few" class="radioLabel">0-3</label>
+                                            </div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="numberCriticalUseCase__more" value="more"
+                                                    name="numberCriticalUseCase" class="radioInput">
+                                                <label for="numberCriticalUseCase__more" class="radioLabel">4-8</label>
+                                            </div>
+                                            <div class="radioElement">
+                                                <input type="radio" id="numberCriticalUseCase__lot" value="lot"
+                                                    name="numberCriticalUseCase" class="radioInput">
+                                                <label for="numberCriticalUseCase__lot" class="radioLabel">9+</label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> <!-- end of item -->
+                    </div>
                 </div>
-
-                <div class="col-lg-6">
-                    <div class="item">
-                        <div id="headingFour">
-                            <span class="collapsed" data-toggle="collapse" data-target="#collapseFour"
-                                aria-expanded="false" aria-controls="collapseFour" role="button">
-                                <span class="circle-numbering">4</span><span class="accordion-title">Stopień
-                                    rozpoczęcia</span>
-                            </span>
-                        </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                            data-parent="#accordionOne">
-                            <div class="accordion-body">
-                                <form>
-                                    <div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="startLevel__new" value="new" name="startLevel"
-                                                class="radioInput">
-                                            <label for="startLevel__new" class="radioLabel">Od początku</label>
-                                        </div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="startLevel__exist" value="difficult"
-                                                name="startLevel" class="radioInput">
-                                            <label for="startLevel__exist" class="radioLabel">Istniejący</label>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div> <!-- end of item -->
-
-                    <div class="item">
-                        <div id="headingFive">
-                            <span class="collapsed" data-toggle="collapse" data-target="#collapseFive"
-                                aria-expanded="false" aria-controls="collapseFive" role="button">
-                                <span class="circle-numbering">5</span><span class="accordion-title">Liczba przypadków
-                                    użycia</span>
-                            </span>
-                        </div>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                            data-parent="#accordionOne">
-                            <div class="accordion-body">
-                                <form>
-                                    <div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="numberUseCase__few" value="few" name="numberUseCase"
-                                                class="radioInput">
-                                            <label for="numberUseCase__few" class="radioLabel">0-10</label>
-                                        </div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="numberUseCase__more" value="more"
-                                                name="numberUseCase" class="radioInput">
-                                            <label for="numberUseCase__more" class="radioLabel">11-30</label>
-                                        </div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="numberUseCase__lot" value="lot" name="numberUseCase"
-                                                class="radioInput">
-                                            <label for="numberUseCase__lot" class="radioLabel">31+</label>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div> <!-- end of item -->
-
-                    <div class="item">
-                        <div id="headingSix">
-                            <span class="collapsed" data-toggle="collapse" data-target="#collapseSix"
-                                aria-expanded="false" aria-controls="collapseSix" role="button">
-                                <span class="circle-numbering">6</span><span class="accordion-title">Liczba krytycznych
-                                    przypadków użycia</span>
-                            </span>
-                        </div>
-                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionOne">
-                            <div class="accordion-body">
-                                <form>
-                                    <div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="numberCriticalUseCase__few" value="few"
-                                                name="numberCriticalUseCase" class="radioInput">
-                                            <label for="numberCriticalUseCase__few" class="radioLabel">0-3</label>
-                                        </div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="numberCriticalUseCase__more" value="more"
-                                                name="numberCriticalUseCase" class="radioInput">
-                                            <label for="numberCriticalUseCase__more" class="radioLabel">4-8</label>
-                                        </div>
-                                        <div class="radioElement">
-                                            <input type="radio" id="numberCriticalUseCase__lot" value="lot"
-                                                name="numberCriticalUseCase" class="radioInput">
-                                            <label for="numberCriticalUseCase__lot" class="radioLabel">9+</label>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div> <!-- end of item -->
-                    <button onclick="myFunction()">Click me</button>
+                <div class=" row">
+                    <a id="analyzeBtn"class="btn-solid-lg page-scroll" href="#categories">Analizuj</a>
                 </div>
             </div>
+            
 
 
 
@@ -383,13 +322,9 @@
     <!-- end of details 1 -->
 
 <!-- Slider -->
-    <div class="cards-2">
+    <div class="cards-2" id="categories">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
                     <h2>Kategorie projektów</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-12">
 
