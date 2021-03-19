@@ -115,6 +115,12 @@ function analyze(){
         }
     }
     var textResult = document.getElementById("textResult")
-    textResult.textContent="Projekt należy do kategorii "+category+"."
+    if(size === "" || risk === "" || difficult ==="" || numberUseCase==="" ){
+        textResult.textContent="Należy uzupełnić wszystkie parametry."
+    }else{
+        textResult.textContent="Projekt należy do kategorii "+category+"."
+    }
+    
+
 
 }

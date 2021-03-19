@@ -2453,3 +2453,37 @@ a:hover.back-to-top {
 .myStyle{
 	height:100vh;
 }
+
+.vh80{
+	height: 50vh;
+}
+.vh20{
+
+}
+
+.btn{
+	margin-top: 10px;
+}
+#textResult{
+	margin-left: 30px;
+}
+.disabled{
+	display: inline-block;
+	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
+	border: 0.125rem solid grey;
+	border-radius: 0.25rem;
+	background-color: grey;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+}
+.disabled :hover{
+	display: inline-block;
+	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
+	border: 0.125rem solid grey;
+	border-radius: 0.25rem;
+	background-color: grey;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+}
