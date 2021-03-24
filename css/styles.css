@@ -1309,7 +1309,7 @@ padding-top: 0.2rem;
 /*     12. Projects     */
 /************************/
 .filter {
-	padding-top: 6.5rem;
+	padding-top: 1.5rem;
 	padding-bottom: 7rem;
 }
 
@@ -1365,7 +1365,6 @@ padding-top: 0.2rem;
 	float: left;
 	overflow: hidden;
 	width: 50%;
-	background-color: #000; /* to hide 1px white margin in IE */
 }
 
 .filter .element-item img {
@@ -2355,10 +2354,10 @@ a:hover.back-to-top {
 
 
 	/* Projects */
-	.filter .element-item {
-		width: 17.3125rem; /* to eliminate grid overflow problem on hard refresh */
-		height: 16.875rem;
-	}
+	 .filter .element-item {
+		 width: 17.3125rem; 
+		height: 16.875rem; 
+	} 
 
 	.filter .element-item .element-item-overlay span { 
 		top: 45%;
@@ -2507,7 +2506,18 @@ a:hover.back-to-top {
 
 .deimos{
 	margin: 5px;
-	padding: 2px 15px;
+	padding: 2px 5px;
+	border: 0.125rem solid #14bf98;
+	border-radius: 0.25rem;
+
+}
+.deimos p, .mars p{
+	font-size: 0.8rem;
+	margin: 0;
+}
+.mars{
+	margin: 5px;
+	padding: 2px 5px;
 	border: 0.125rem solid #14bf98;
 	border-radius: 0.25rem;
 
