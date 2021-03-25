@@ -2512,7 +2512,7 @@ a:hover.back-to-top {
 	border-radius: 0.25rem;
 
 }
-.deimos p, .mars p{
+.deimos p, .mars p, .offElement p{
 	font-size: 0.8rem;
 	margin: 0;
 }
@@ -2521,5 +2521,11 @@ a:hover.back-to-top {
 	padding: 2px 5px;
 	border: 0.125rem solid #14bf98;
 	border-radius: 0.25rem;
+}
 
+.offElement{
+	margin: 5px;
+	padding: 2px 5px;
+	border: 0.125rem solid rgb(155, 155, 155);
+	border-radius: 0.25rem;
 }
